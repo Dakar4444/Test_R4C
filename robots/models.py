@@ -10,7 +10,7 @@ class RobotModel(models.Model):
 
 
 class Robot(models.Model):
-    serial = models.CharField(max_length=6, blank=False, null=False, unique=True)
+    serial = models.CharField(max_length=6, blank=False, null=False)
     model = models.CharField(max_length=2, blank=False, null=False)
     version = models.CharField(max_length=2, blank=False, null=False)
     created = models.DateTimeField(blank=False, null=False)
