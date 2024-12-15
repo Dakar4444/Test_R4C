@@ -122,4 +122,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
+# AutoField
+
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+
+
+# EmailBackend
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

@@ -5,7 +5,7 @@ from django.views import View
 from django.http import JsonResponse
 from django.http import HttpResponse
 from django.db.models import Count
-from .models import Robot, RobotModel
+from robots.models import Robot, RobotModel
 from openpyxl.styles import Alignment
 from openpyxl import Workbook
 import datetime
